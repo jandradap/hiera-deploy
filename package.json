@@ -1,0 +1,32 @@
+{
+  "name": "git-deploy",
+  "version": "0.3.0",
+  "description": "Local https server for triggered git deploys.",
+  "main": "index.js",
+  "private": true,
+  "keywords": [
+    "node"
+  ],
+  "homepage": "https://github.com/ourtownrentals/docker-git-deploy",
+  "bugs": "https://github.com/ourtownrentals/docker-git-deploy/issues",
+  "repository": "ourtownrentals/docker-git-deploy",
+  "license": "MIT",
+  "author": {
+    "name": "Evan Sosenko",
+    "email": "razorx@evansosenko.com"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "nodegit": "^0.13.0"
+  }
+}
